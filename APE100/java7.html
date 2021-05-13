@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //fuction with paramter
+        let getVolume = function (w , l, h) {
+            alert(`The cubic volume is ${w * l * h} cubic-unit.` )
+
+        }
+
+         getVolume (9,9,9) //call function6
+        //function without parameter
+        let x,y,z
+        x = 5; 
+        y = 6; 
+        z = 7;
+        // alert(calVolume());
+        const calVolume=function() {
+            alert(x * y * z);
+        }
+        //  calVolume();
+    // function expresstion
+       let getCircleArea = function(){
+           return Math.PI * r ** 2
+
+       }
+       let calCircleArea = (r) => {
+           return Math.PI * r ** 2;
+       }
+       let r = 5;
+       alert(`The circle are with radius of ${r} is ${calCircleArea(r).toFixed(2)} square-unit`)
+ 
+    </script>
+</body>
+</html>
